@@ -10,9 +10,6 @@ buttonSubmit.addEventListener("click", () => {
 
     // shuffle array
     let shuffledMaps = shuffle(maps);
-
-    // pick a random integer
-    const randomInt = randomInteger(0, shuffledMaps.length - 1);
     
     // get values from form
     const banOne = mapBanOne.value;
@@ -31,6 +28,9 @@ buttonSubmit.addEventListener("click", () => {
 
     // shuffle array again
     shuffledMaps = shuffle(shuffledMaps);
+
+    // pick a random integer
+    const randomInt = randomInteger(0, shuffledMaps.length - 1);
 
     alert(`Banned Maps: ${banOne} & ${banTwo}\nMap Chosen: ${shuffledMaps[randomInt]}`);
 
