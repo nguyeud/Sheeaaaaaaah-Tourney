@@ -15,7 +15,7 @@ body {
         rgba(22,26,38,0.7)
       ), 
     /* image */
-    url("LNY_Sage-6_WrapUp.jpg");
+    url("../images/LNY_Sage-6_WrapUp.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
